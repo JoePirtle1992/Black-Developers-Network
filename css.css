@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* #main-nav {
+    border: solid 2px red;
+} */
+
+#master-list li {
+  color: white;
+  display: inline-flex;
+  padding: 0.7em;
+  font-family: "Nunito";
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+#entire-front {
+  /* border: solid 2px aqua; */
+  /* OPTION 1: Height can be 100% */
+  height: 100%;
+  /* height: 83%; */
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* OPTION 1 */
+  /* background-position: 100%; */
+  background-position: 70% 47%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(13, 17, 20, 0.5),
+      rgba(19, 12, 11, 0.5)
+    ),
+    url("./cow.svg");
+}
+
+#entire-front > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 80%;
+}
+
+.inside {
+  text-align: center;
+  color: #fcf6f6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  animation: mahAnimation 3s;
+}
+
+.inside h1:nth-child(2) {
+  font-family: "Oswald", sans-serif;
+  font-size: 7em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.inside h1:nth-child(1) {
+  font-size: 1.4em;
+  
+  padding-bottom: .2em;
+  font-family: "Nunito";
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#main-nav {
+  display: flex;
+}
+
+#logo {
+  flex: 1;
+}
+
+#logo-list {
+    padding: .7em;
+}
+#logo-list i {
+    padding: .1em;
+}
+
+#logo h1 {
+  /* border: solid 2px red; */
+  font-family: "Fugaz One", cursive;
+  font-weight: 700;
+  padding-left: .49em;
+  color: white;
+}
+
+#master-list {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  /* border: solid 2px green; */
+}
+
+#main-innards {
+  font-size: .8em;
+}
+
+.inside p {
+  padding-bottom: 1em;
+  font-family: "Nunito";
+  /* border: solid 2px red; */
+  width: 60%;
+  font-size: .9em;
+  letter-spacing: 0.5px;
+}
+
+#main-buttons {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#main-buttons button {
+  padding: 1.2em;
+  width: 15%;
+  background-color: transparent;
+  border: solid .7px white;
+  border-radius: 50px;
+  color: white;
+  -webkit-box-shadow: 5px 5px 11px -px #FFFFFF; 
+box-shadow: 5px 5px 11px -7px #FFFFFF;
+  font-size: 1.1em;
+  font-family: 'Nunito';
+  
+}
+
+#main-buttons button:nth-child(1){
+  margin-right: 1em;
+}
+
+#brand #text {
+    flex: .9;
+    padding: 1.7em;
+}
+
+#brand {
+    display: flex;
+    align-items: baseline;
+    background-color: rgb(26, 27, 26);
+    color: white;
+    padding: 1.2em;
+}
+
+
+#brand-button {
+  flex: .2;
+}
+
+#brand-button button {
+  width: 95%;
+  background-color: white;
+  color: rgb(95, 215, 98);
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+
+#text {
+    flex: .97;
+}
+
+
+#button-brand {
+    padding: 2em;   
+}
+
+button#button-brand  {
+  border-radius: 30px solid white;
+  border: none;
+}
+
+#text h1, p {
+  font-family: 'Lato';
+}
+
+#text p {
+  font-weight: 200;
+  font-size: .8em;
+}
+
+#text h1 {
+  font-weight: 300;
+  padding-bottom: .4em;
+  letter-spacing: .1em;
+}
+
+#main-buttons button:hover {
+  background-color: rgb(95, 215, 98);
+  border: none;
+}
+
+
+
+/* Outer Box */
+#outer-info-box {
+  padding: 2em;
+  background-color: rgb(240, 240, 240);
+}
+
+/* #info-box-container {
+  border: solid 2px white;
+} */
+
+.box{ 
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 15px -12px #000000; 
+  box-shadow: 5px 5px 15px -12px #000000;
+}
+
+#info-box-container {
+  display: flex;
+  /* justify-content: space-between; */
+  border: solie 2px white;
+  justify-content: center;
+  padding: 2em;
+}
+
+.box > i {
+  /* padding: 1em; */
+  padding-bottom: .3em;
+  color: rgb(95, 215, 98);
+}
+
+.box {
+  padding: 2em;
+  border-radius: 3px;
+  background-color: white;
+  margin: .4em;
+  width: 20%;
+  font-family: 'Lato';
+}
+
+.box h1 {
+  font-size: 1.24em;
+  font-weight: 200;
+  padding-bottom: .2em;
+}
+
+.box p {
+  font-size: .7em;
+  padding: .2em;
+}
+
+
+
+#master-container {
+  display: flex;
+  border: solid 2px red;
+}
+
+
+.about-you {
+  flex: 1;
+  border: solid 2px green;
+}
+
+.black-group {
+  flex: 1;
+  /* border: solid 2px aqua; */
+  position: relative;
+  margin: 1em;
+}
+
+img.group {
+  width: 100%;
+}
+.image-box h1 {
+  font-size: 1.6em;
+  padding-bottom: 1em;
+}
+
+
+.image-box {
+  width: 40%;
+  /* border: solid 2px red; */
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  padding: 2em;
+  font-size: .78em;
+  color: white;
+  background-color: rgba(95, 215, 98, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation */
+
+@keyframes mahAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*Smallest it can get is 405px and biggest it can get is 455px*/
+@media (min-width: 500px) and (max-width: 731px) {
+  .inside h1:nth-child(1) {
+    font-size: .8em;
+  }
+  .inside h1:nth-child(2) {
+    font-size: 2.2em;
+  }
+  .inside p {
+    font-size: 0.8em;
+  }
+  #main-buttons button{
+      font-size: 1em;
+      font-family: 'Nunito';
+
+  }
+  #entire-front {
+    /* border: solid 2px aqua; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: linear-gradient(
+        360deg,
+        rgba(13, 17, 20, 0.5),
+        rgba(19, 12, 11, 0.5)
+      ),
+      url("./paintit.svg");
+  }
+  #info-box-container {
+    display: block;
+  }
+  .box {
+    width: 100%;
+  }
+  #text h1 {
+    font-size: 1em;
+  }
+}
+
+
+
+/*Smallest it can get is 405px and biggest it can get is 455px*/
+@media (min-width: 807px) and (max-width: 962px) {
+
+ #entire-front{
+   /* border: solid 2px red; */
+   width: 100%;
+   /* background-size: cover; */
+ }
+
+}
+
