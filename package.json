@@ -1,0 +1,24 @@
+{
+  "name": "5-31-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoePirtle1992/DeveloperNetworkLandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoePirtle1992/DeveloperNetworkLandingPage/issues"
+  },
+  "homepage": "https://github.com/JoePirtle1992/DeveloperNetworkLandingPage#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

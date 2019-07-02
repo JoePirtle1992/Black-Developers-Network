@@ -41,7 +41,7 @@ body {
       rgba(13, 17, 20, 0.5),
       rgba(19, 12, 11, 0.5)
     ),
-    url("./cow.svg");
+    url("../images/woman.svg");
 }
 
 #entire-front > div:nth-child(2) {
@@ -267,13 +267,26 @@ button#button-brand  {
 
 #master-container {
   display: flex;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
 
 .about-you {
   flex: 1;
-  border: solid 2px green;
+  /* border: solid 2px green; */
+}
+
+.about-you {
+  padding: 2em;
+}
+
+.about-you p{
+  padding: 2em;
+}
+
+.about-you h1 {
+  padding: 1em;
+  font-family: 'Lato'
 }
 
 .black-group {
