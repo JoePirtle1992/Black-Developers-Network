@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/JoePirtle1992/DeveloperNetworkLandingPage#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
